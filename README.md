@@ -82,4 +82,5 @@ fluxo implementado
 `input.addEvent Listener("input",...)`
 - Se o campo ficar vazio (após `trim()` , limpa `#result` e restaura a classe base.
   
-  
+## UML Diagrama de Sequência
+   ![Diagrama](./diagrama_de_sequencia.png)
