@@ -22,7 +22,7 @@ Construir uma página com **HTML dinâmico + requisição HTTP** para consultar 
     |  |--js/main.js
     |__pages/index.html
 ```
-##Como executar o projeto
+## Como executar o projeto
 1. Instale as dependências:
 `npm install`
 
