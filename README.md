@@ -22,6 +22,22 @@ Construir uma página com **HTML dinâmico + requisição HTTP** para consultar 
     |  |--js/main.js
     |__pages/index.html
 ```
+##Como executar o projeto
+1. Instale as dependências:
+`npm install`
+
+2. Inicie o servidor:
+`npm start` 
+
+3. Abra o navegador:
+`http://localhost:3002`
+
+Caso queira utilizar outra porta, altere `PORT` no arquivo `.env`.
+
+## Modo desenvolvimento
+Caso queira rodar o programa com reinício automático ao salvar os arquivos:
+`npm dev`
+
 ## Fluxo geral da aplicação
 1. O servidor Express responde `GET/` com `public/pages/index.html`.
 2. Os arquivos estáticos são servidos em `/assets` (`main.css`e `main.js`).
